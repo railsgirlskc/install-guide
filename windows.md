@@ -43,7 +43,7 @@ rails -v
 Should print the currently installed rails version number \(your version may differ\):
 
 ```text
-Rails 5.1.1
+Rails 5.2.1
 ```
 
 If the Rails version is less than 5.1, update it using a following command:
@@ -52,11 +52,11 @@ If the Rails version is less than 5.1, update it using a following command:
 gem update rails --no-document
 ```
 
-## Possible errors
+## Testing your Install - Possible errors
 
-### Gem::RemoteFetcher error
+### run `rails new railsgirls` or `gem update rails`
 
-If you get this error when running `rails new railsgirls` or `gem update rails`:
+If you get an error stating `Gem::RemoteFetcher`:
 
 ```text
 Gem::RemoteFetcher::FetchError: SSL_connect returned=1 errno=0 state=SSLv3 read
@@ -89,7 +89,7 @@ Make sure it is equal or higher than `2.6.11`. Re-run the command that was faili
 
 If you are still running into problems you can always find the latest version of rubygems online at [rubygems.org](https://rubygems.org/pages/download). If you click on **GEM** you will get the latest version.
 
-### During bundle install
+### Run `bundle install`
 
 The `Gem::RemoteFetcher::FetchError: SSL_connect` can also occur during the `bundle install` stage when creating a new rails app.
 
@@ -107,10 +107,9 @@ After you did that, please use your Command Prompt again and type `bundle update
 
 For the workshop we recommend the text editor Atom.
 
-* [Download Atom and install it](https://github.com/atom/atom/releases/latest)
-  * Download an atom zip file for windows and decompress it.
-  * Copy the folder into your Program Files.
-  * Launch atom in the folder.
+Visit the[ atom.io](https://atom.io/) website to download and install the latest version.
+
+![](.gitbook/assets/atom-website.PNG)
 
 If you are using Windows Vista or older versions, you can use another editor [Sublime Text 2](http://www.sublimetext.com/2). Just to make sure that you’re not mixing up using your command prompt or text-editor: change the theme of your Sublime text-editor, choosing one of the following: “iPlastic”, “Slush & Poppies”, or “Zenburnesque”.
 
@@ -122,8 +121,9 @@ Open [whatbrowser.org](http://whatbrowser.org/) and update your browser if you d
 
 ## _4._ Install Node.js
 
-* Go to [https://nodejs.org/](https://nodejs.org/) and install Node.js LTS package
-* Reopen your Rails Command Shell
+* Go to [https://nodejs.org/](https://nodejs.org/) and download the Node.js LTS package.
+* Install Node.js following the wizard
+* Close and reopen your Rails Command Shell
 
 Check your version of node
 
@@ -132,6 +132,8 @@ node --version
 ```
 
 Make sure it is displaying version number.
+
+![](.gitbook/assets/node-version.PNG)
 
 ## _5._ Check the environment
 
@@ -144,6 +146,8 @@ rails server
 ```
 
 Go to `http://localhost:3000` in your browser, and you should see the ‘Yay! You’re on Rails!’ page.
+
+![](.gitbook/assets/on-rails.PNG)
 
 Now you should have a working Ruby on Rails programming setup. Congrats!
 
