@@ -2,7 +2,7 @@
 
 ## _1._ Install Rails
 
-Download [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.3.0.exe) and run it. Click through the installer using the default options.
+Download [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.4.0.exe) and run it. Click through the installer using the default options.
 
 ### **1a. Enable copy and paste in Windows Command Prompt**
 
