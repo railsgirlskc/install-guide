@@ -1,6 +1,6 @@
 # Windows
 
-## _1._ Install Rails
+## 1. Install Rails
 
 Download [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.4.0.exe) and run it. Click through the installer using the default options.
 
@@ -95,7 +95,7 @@ The `Gem::RemoteFetcher::FetchError: SSL_connect` can also occur during the `bun
 
 The error will make mention of [bit.ly/ruby-ssl](http://bit.ly/ruby-ssl). What is relevant for Windows users at this point is [this GitHub gist](https://gist.github.com/867550). The described manual way has proven to be successful to solve the `bundle install` error.
 
-#### ‘x64\_mingw’ is not a valid platform\` Error {#x64_mingw-is-not-a-valid-platform-error}
+#### ‘x64\_mingw’ is not a valid platform\` Error <a id="x64_mingw-is-not-a-valid-platform-error"></a>
 
 Sometimes you get the following error when running `rails server`: `'x64_mingw' is not a valid platform` If you experience this error after using the RailsInstaller you have to do a small edit to the file `Gemfile`:
 
@@ -103,7 +103,7 @@ Look at the bottom of the file. You will probably see something like this as one
 
 After you did that, please use your Command Prompt again and type `bundle update`.
 
-## _2._ Install a text editor to edit code files
+## 2. Install a text editor to edit code files
 
 For the workshop we recommend the text editor Atom.
 
@@ -113,13 +113,13 @@ Visit the[ atom.io](https://atom.io/) website to download and install the latest
 
 If you are using Windows Vista or older versions, you can use another editor [Sublime Text 2](http://www.sublimetext.com/2). Just to make sure that you’re not mixing up using your command prompt or text-editor: change the theme of your Sublime text-editor, choosing one of the following: “iPlastic”, “Slush & Poppies”, or “Zenburnesque”.
 
-## _3._ Update your browser
+## 3. Update your browser
 
 If you use Internet Explorer, we recommend installing [Firefox](http://guides.railsgirls.com/mozilla.org/firefox) or [Google Chrome](http://guides.railsgirls.com/google.com/chrome).
 
 Open [whatbrowser.org](http://whatbrowser.org/) and update your browser if you don’t have the latest version.
 
-## _4._ Install Node.js
+## 4. Install Node.js
 
 * Go to [https://nodejs.org/](https://nodejs.org/) and download the Node.js LTS package.
 * Install Node.js following the wizard
@@ -135,7 +135,7 @@ Make sure it is displaying version number.
 
 ![](.gitbook/assets/node-version.PNG)
 
-## _5._ Check the environment
+## 5. Check the environment
 
 Check that everything is working by running the application generator command.
 
