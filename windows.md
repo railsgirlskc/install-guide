@@ -56,6 +56,8 @@ gem update rails --no-document
 
 ### run `rails new railsgirls` or `gem update rails`
 
+If you don't get an error, move down to  [Run bundle install](windows.md#run-bundle-install)
+
 If you get an error stating `Gem::RemoteFetcher`:
 
 ```text
@@ -90,6 +92,8 @@ Make sure it is equal or higher than `2.6.11`. Re-run the command that was faili
 If you are still running into problems you can always find the latest version of rubygems online at [rubygems.org](https://rubygems.org/pages/download). If you click on **GEM** you will get the latest version.
 
 ### Run `bundle install`
+
+If you don't get an error, jump down to [Installing a text editor](windows.md#2-install-a-text-editor-to-edit-code-files) 
 
 The `Gem::RemoteFetcher::FetchError: SSL_connect` can also occur during the `bundle install` stage when creating a new rails app.
 
