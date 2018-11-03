@@ -73,12 +73,8 @@ gem -v
 
 If it is lower than `2.6.5` you will need to manually update it:
 
-First download the [ruby-gems-update gem](https://rubygems.org/gems/rubygems-update-2.6.11.gem). Move the file to `c:\\rubygems-update-2.6.11.gem` then run:
-
 ```text
-gem install --local c:\\rubygems-update-2.6.11.gem
-update_rubygems --no-document
-gem uninstall rubygems-update -x
+gem update --system
 ```
 
 Check your version of rubygems
