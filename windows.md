@@ -6,11 +6,11 @@ Download [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsi
 
 ### **1a. Enable copy and paste in Windows Command Prompt**
 
-For Windows 10 users:
+Test if you can use the ctrl button to copy and paste in the terminal, if not try these steps:
 
 Open `Command Prompt with Ruby and Rails`. Right-click on the command prompt’s title bar, and choose “Properties”. Navigate to the “experimental” tab, and check the “Enable new Ctrl key shortcuts” option \(you may need to check the “Enable experimental console features” option first\).
 
-For other Windows versions:
+Otherwise:
 
 To paste a text in the command prompt window you’ll need to use the mouse \(right-click on the window –&gt; paste\).
 
