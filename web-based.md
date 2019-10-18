@@ -6,7 +6,7 @@ Instead of installing Ruby on Rails and an editor on your computer, you can use 
 
 If you use Internet Explorer, we recommend installing [Firefox](http://guides.railsgirls.com/mozilla.org/firefox) or [Google Chrome](http://guides.railsgirls.com/google.com/chrome).
 
-Open [whatbrowser.org](http://whatbrowser.org/) and update your browser if you don’t have the latest version.
+Open [whatsmybrowser.org](http://whatsmybrowser.org) and update your browser if you don’t have the latest version.
 
 ## _2._ Create an account
 

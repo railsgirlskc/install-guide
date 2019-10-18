@@ -8,13 +8,13 @@ Click the Apple menu and choose _About this Mac_.
 
 ## _2._ In the window you will find the version of your operating system.
 
-If your version number starts with 10.6, 10.7, 10.8, 10.9, 10.10, 10.11 or 10.12 this guide is for you. If it’s something else, we can setup your machine at the event.
+If your version number starts with 10.6, 10.7, 10.8, 10.9, 10.10, 10.11 10.12, 10.13, or 10.14 this guide is for you. If it’s something else, we can setup your machine at the event.
 
 ![About this Mac dialog](http://guides.railsgirls.com/images/2.png)
 
 ### _3a._ If your OS X version is 10.9 or higher:
 
-If your version number starts with 10.9, 10.10, 10.11 or 10.12, follow these steps. We are installing homebrew and rbenv.
+ We are installing homebrew and rbenv.
 
 #### **3a1. Install Command line tools on terminal:**
 
@@ -42,7 +42,7 @@ source ~/.bash_profile
 You can find the newest version of Ruby with the command “rbenv install -l”.
 
 ```text
-rbenv install 2.4.2
+rbenv install 2.5.3
 ```
 
 If you got “OpenSSL::SSL::SSLError: … : certificate verify failed” error, try it this way.
@@ -55,7 +55,7 @@ cp /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt `ruby -ropenssl -e 'puts Op
 #### **3a5. Set default Ruby:**
 
 ```text
-rbenv global 2.4.2
+rbenv global 2.5.3
 ```
 
 #### **3a6. Install rails:**
@@ -85,19 +85,19 @@ For the workshop we recommend the text editor Atom.
 
 * [Download Atom and install it](https://atom.io/)
 
-If you are using Mac OS X 10.7 or older versions, you can use another editor [Sublime Text 2](http://www.sublimetext.com/2). Just to make sure that you’re not mixing up using your terminal or text-editor: change the theme of your Sublime text-editor, choosing one of the following: “iPlastic”, “Slush & Poppies”, or “Zenburnesque”.
+If you are using Mac OS X 10.8 or older versions, you can use another editor [Sublime Text 2](http://www.sublimetext.com/2). 
 
 ## _5._ Update your browser
 
-Open [whatbrowser.org](http://whatbrowser.org/) and update your browser if you don’t have the latest version.
+Open [whatsmybrowser.org](https://www.whatsmybrowser.org/) and update your browser if you don’t have the latest version.
 
 ## _6._ Check the environment
 
 Check that everything is working by running the application generator command.
 
 ```text
-rails new myapp
-cd myapp
+rails new testapp
+cd testapp
 rails server
 ```
 
@@ -105,7 +105,7 @@ Go to `http://localhost:3000` in your browser, and you should see the ‘Yay! Yo
 
 Now you should have a working Ruby on Rails programming setup. Congrats!
 
-**Coach:** We recommend to verify by using the scaffold command and inputting data with the generated page with coaches to ensure everything is working. Also: remove the test app `myapp` to make super sure no-one is working in the wrong folder, following the steps of the workshop.
+**Coach:** We recommend to verify by using the scaffold command and inputting data with the generated page with coaches to ensure everything is working. Also: remove the test app `testapp` to make super sure no-one is working in the wrong folder, following the steps of the workshop.
 
 ## 7. Go through the Workshop Guides
 

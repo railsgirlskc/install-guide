@@ -54,7 +54,7 @@ gem update rails --no-document
 
 ## Testing your Install - Possible errors
 
-### run `rails new railsgirls` or `gem update rails`
+### run `rails new testapp` or `gem update rails`
 
 If you don't get an error, move down to  [Run bundle install](windows.md#run-bundle-install)
 
@@ -111,13 +111,13 @@ Visit the[ atom.io](https://atom.io/) website to download and install the latest
 
 ![](.gitbook/assets/atom-website.PNG)
 
-If you are using Windows Vista or older versions, you can use another editor [Sublime Text 2](http://www.sublimetext.com/2). Just to make sure that you’re not mixing up using your command prompt or text-editor: change the theme of your Sublime text-editor, choosing one of the following: “iPlastic”, “Slush & Poppies”, or “Zenburnesque”.
+If you are using Windows Vista or older versions, you can use another editor [Sublime Text 2](http://www.sublimetext.com/2). 
 
 ## 3. Update your browser
 
 If you use Internet Explorer, we recommend installing [Firefox](http://guides.railsgirls.com/mozilla.org/firefox) or [Google Chrome](http://guides.railsgirls.com/google.com/chrome).
 
-Open [whatbrowser.org](http://whatbrowser.org/) and update your browser if you don’t have the latest version.
+Open [whatsmybrowser.org](http://whatsmybroser.org) and update your browser if you don’t have the latest version.
 
 ## 4. Install Node.js
 
@@ -140,8 +140,8 @@ Make sure it is displaying version number.
 Check that everything is working by running the application generator command.
 
 ```text
-rails new myapp
-cd myapp
+rails new testapp
+cd testapp
 rails server
 ```
 
@@ -151,7 +151,7 @@ Go to `http://localhost:3000` in your browser, and you should see the ‘Yay! Yo
 
 Now you should have a working Ruby on Rails programming setup. Congrats!
 
-**Coach:** We recommend to verify by using the scaffold command and inputting data with the generated page with coaches to ensure everything is working. Also: remove the test app `myapp` to make super sure no-one is working in the wrong folder, following the steps of the workshop.
+**Coach:** We recommend to verify by using the scaffold command and inputting data with the generated page with coaches to ensure everything is working. Also: remove the test app `testapp` to make super sure no-one is working in the wrong folder, following the steps of the workshop.
 
 ## 6. Go through the Workshop Guides
 

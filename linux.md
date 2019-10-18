@@ -33,7 +33,7 @@ For the workshop we recommend the text editor Sublime Text.
 
 ## _3._ Update your browser
 
-Open [whatbrowser.org](http://whatbrowser.org/) and update your browser if you don’t have the latest version.
+Open [whatsmybrowser.org](http://whatsmybrowser.org)  and update your browser if you don’t have the latest version.
 
 ## _4._ Check the environment
 
@@ -49,7 +49,7 @@ Go to `http://localhost:3000` in your browser, and you should see the ‘Yay! Yo
 
 Now you should have a working Ruby on Rails programming setup. Congrats!
 
-**Coach:** We recommend to verify by using the scaffold command and inputting data with the generated page with coaches to ensure everything is working. Also: remove the test app `myapp` to make super sure no-one is working in the wrong folder, following the steps of the workshop.
+**Coach:** We recommend to verify by using the scaffold command and inputting data with the generated page with coaches to ensure everything is working. Also: remove the test app `testapp` to make super sure no-one is working in the wrong folder, following the steps of the workshop.
 
 ## 5. Go through the Workshop Guides
 
