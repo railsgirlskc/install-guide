@@ -43,7 +43,14 @@ source ~/.bash_profile
 You can find the newest version of Ruby with the command “rbenv install -l”.
 
 ```text
-rbenv install 2.6.3
+rbenv install 2.6.5
+```
+
+If you got "BUILD FAILED \(OS X 10.14.6 using ruby-build 20191004\)"
+
+```text
+brew install openssl
+RUBY_CONFIGURE_OPTS=--with-openssl-dir=/usr/local/Cellar/openssl/1.0.2t rbenv install 2.6.5
 ```
 
 If you got “OpenSSL::SSL::SSLError: … : certificate verify failed” error, try it this way.
@@ -56,7 +63,7 @@ cp /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt `ruby -ropenssl -e 'puts Op
 #### **3a5. Set default Ruby:**
 
 ```text
-rbenv global 2.6.3
+rbenv global 2.6.5
 ```
 
 #### **3a6. Install rails:**
