@@ -1,6 +1,6 @@
 # Windows
 
-Last year's installation instructions are a bit outdated.  They're still posted below, but we're going to work with the updated ruby 2.6.5 and rails 6.0.0 this year.
+Last year's installation instructions are a bit outdated.  The one click installer we used hasn't been updated in two years.  They're still posted below, but we're going to work with the updated ruby 2.6.5 and rails 6.0.0 this year.
 
 This article is a very well filled out guide on how to install rails 6.0.0 on windows 7, 8, and 10
 
