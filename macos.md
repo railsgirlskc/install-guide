@@ -33,6 +33,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```text
 brew update
 brew install rbenv
+brew upgrade ruby-build
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
@@ -42,7 +43,7 @@ source ~/.bash_profile
 You can find the newest version of Ruby with the command “rbenv install -l”.
 
 ```text
-rbenv install 2.5.3
+rbenv install 2.6.3
 ```
 
 If you got “OpenSSL::SSL::SSLError: … : certificate verify failed” error, try it this way.
