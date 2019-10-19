@@ -56,7 +56,7 @@ cp /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt `ruby -ropenssl -e 'puts Op
 #### **3a5. Set default Ruby:**
 
 ```text
-rbenv global 2.5.3
+rbenv global 2.6.3
 ```
 
 #### **3a6. Install rails:**
