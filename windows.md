@@ -54,7 +54,7 @@ gem update rails --no-document
 
 ## Testing your Install - Possible errors
 
-### run `rails new testapp` or `gem update rails`
+### run `rails new testapp`
 
 If you don't get an error, move down to  [Run bundle install](windows.md#run-bundle-install)
 
