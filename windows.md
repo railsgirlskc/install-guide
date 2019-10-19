@@ -1,5 +1,13 @@
 # Windows
 
+Last year's installation instructions are a bit outdated.  They're still posted below, but we're going to work with the updated ruby 2.6.5 and rails 6.0.0 this year.
+
+This article is a very well filled out guide on how to install rails 6.0.0 on windows 7, 8, and 10
+
+[https://medium.com/ruby-on-rails-web-application-development/how-to-install-rubyonrails-on-windows-7-8-10-complete-tutorial-2017-fc95720ee059](https://medium.com/ruby-on-rails-web-application-development/how-to-install-rubyonrails-on-windows-7-8-10-complete-tutorial-2017-fc95720ee059)
+
+## Last year's guide:
+
 ## 1. Install Rails
 
 Download [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.4.0.exe) and run it. Click through the installer using the default options.
