@@ -153,6 +153,12 @@ cd testapp
 rails server
 ```
 
+If `rails server` errors out, it's likely the version of sqllite3 isn't compatible.  We can change that in the `Gemfile` of your project by specifying a version to use:
+
+```text
+gem 'sqlite3', '~> 1.3', '< 1.4'
+```
+
 Go to `http://localhost:3000` in your browser, and you should see the ‘Yay! You’re on Rails!’ page.
 
 ![](.gitbook/assets/on-rails.PNG)
